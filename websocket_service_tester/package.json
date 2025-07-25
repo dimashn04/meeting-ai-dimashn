@@ -1,0 +1,26 @@
+{
+  "name": "websocket_service_tester",
+  "version": "1.0.0",
+  "description": "Script for test websocket service that send audio in realtime that expects transcribe result",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/src/index.js",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "author": "@minons1 (salim) - Meeting.AI",
+  "license": "PROPRIETARY",
+  "private": true,
+  "dependencies": {
+    "ulid": "^3.0.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "@types/reflect-metadata": "^0.1.0",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3"
+  }
+}

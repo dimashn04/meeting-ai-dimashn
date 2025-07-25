@@ -1,0 +1,23 @@
+# Virtual environment (Python)
+pyenv/
+
+# Python environment and cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Python dependencies (if using venv)
+*.egg-info/
+*.egg
+*.whl
+
+# Test artifacts / audio input
+*.wav
+
+# ZIP or other compressed/tester files
+*.zip
+*.txt
