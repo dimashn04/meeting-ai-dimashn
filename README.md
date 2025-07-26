@@ -48,7 +48,8 @@ pip install -r requirements.txt
 
 Content:  
 ```txt
-websocket-client
+websocket-client  
+requests  
 ```
 
 ---  
